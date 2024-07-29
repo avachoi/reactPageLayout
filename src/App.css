@@ -16,7 +16,55 @@
 	border: brown solid 1px;
 	height: 800px;
 }
-
+.header,
+.searchBar {
+	height: 50px;
+	border: 1px solid lightblue;
+}
+.employListItem {
+	height: 80px;
+	border: 1px solid red;
+}
+.listImg {
+	width: 50px;
+	height: 50px;
+}
+.itemContent {
+	display: flex;
+	padding: 5px;
+	align-items: center;
+}
+.itemContent h3 {
+	margin-bottom: 0px;
+}
+.itemContent p {
+	padding-top: 0 px;
+}
+.profileImg {
+	width: 150px;
+	height: 150px;
+}
+.section {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border: 1px solid grey;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.arrow {
+	width: 20px;
+	height: 20px;
+}
+.right {
+	align-content: center;
+}
+.profileTop {
+	border: 1px solid grey;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+}
 @media (prefers-reduced-motion: no-preference) {
 	.App-logo {
 		animation: App-logo-spin infinite 20s linear;
